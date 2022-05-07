@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  max-height: 3rem;
+}
+
+.tile {
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  max-width: 3rem;
+  flex-wrap: wrap;
+}
+
+.cell {
+  width: 1rem;
+  height: 1rem;
+}
+
+.cell-red {
+  background-color: red;
+}
+
+.cell-green {
+  background-color: green;
+}
+
+.cell-orange {
+  background-color: orange;
+}
+
+.cell-yellow {
+  background-color: yellow;
+}
+
+.cell-purple {
+  background-color: purple;
+}
+
+.cell-pink {
+  background-color: pink;
+}
+
+.cell-blue {
+  background-color: blue;
+}
+
+.cell-black {
+  background-color: black;
+}
+
+.cell-whitish {
+  background-color: rgb(214, 214, 214);
+}
